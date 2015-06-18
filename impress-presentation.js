@@ -111,6 +111,11 @@ H5P.ImpressPresentation = (function ($, EventDispatcher) {
     this.content = actionArray;
   };
 
+  /**
+   * Create the jmpress container, used for the view
+   * 
+   * @returns {string}
+   */
   ImpressPresentation.prototype.createViewsContainer = function () {
     var viewsHtml = '<article class="jmpress" tabindex="0"></article>';
 
